@@ -1,0 +1,370 @@
+/* //////////////////////////////////////////////////////// */
+/* line 3, Style .scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Whitney SSm A, Whitney SSm B, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* line 7, Style .scss */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+}
+
+/* line 13, Style .scss */
+button {
+  outline: none !important;
+}
+
+/* line 16, Style .scss */
+.SignOut {
+  padding: 0 !important;
+  padding-left: 4% !important;
+}
+/* line 19, Style .scss */
+.SignOut a:hover {
+  text-decoration: none;
+}
+
+/* line 23, Style .scss */
+.navbar {
+  padding: 0;
+  padding-bottom: 7px;
+  padding-top: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.03), 0 3px 46px rgba(0, 0, 0, 0.07);
+}
+
+/* line 29, Style .scss */
+.float-right button {
+  color: #0c95d9;
+  outline: none;
+  border: none;
+}
+
+/* line 35, Style .scss */
+.Icon_bars {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+/* line 39, Style .scss */
+.Icon_bars i {
+  display: inline-block;
+  color: #0c95d9;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+/* line 60, Style .scss */
+.nav-item {
+  padding-left: 0 !important;
+  border-bottom: 0.1px solid #f2f2f2;
+}
+
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
+/* line 72, Style .scss */
+ul li i {
+  font-size: 0.7rem;
+}
+ul li p {
+  margin: 0 !important;
+}
+/* line 74, Style .scss */
+/* ul li a {
+  margin-right: 20px;
+} */
+
+/* line 86, Style .scss */
+.button-add button {
+  background: transparent;
+  outline: none;
+  font-size: 0.75rem;
+  border: 0.5px solid #0c95d9;
+  color: #0c95d9;
+}
+/* line 92, Style .scss */
+.button-add a:hover {
+  text-decoration: none;
+}
+.boxNone{
+  width: 100%;
+  height: 55px;
+}
+.Banner {
+  width: 100%;
+  height: 300px;
+  background: url(../Image/bg-setup.svg) bottom no-repeat,
+    linear-gradient(60deg, #008bd6, #3ecfe6);
+}
+
+.Banner_Text {
+  text-align: center;
+}
+
+.Banner_Text .TextBanner_One {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.Banner_Text p {
+  color: white;
+}
+
+.exampleInputEmail1,.exampleInputPassword1{
+  font-size: 2.2vw;
+  text-align: left;
+  font-weight: bold;
+}
+/* dddddddddddddddđ */
+/* line 3, Style .scss */
+.Footer {
+  margin-top: 40px;
+}
+
+.Footer_Box {
+  height: 80px;
+  border-top: 1px solid #738a94;
+}
+.Footer_Box ul {
+  margin: 0 !important;
+}
+.Size_img img {
+  width: auto;
+  height: 190px;
+}
+.Footer_Box ul li a img {
+  height: 30px;
+}
+.Footer_Box ul li a {
+  color: #738a94;
+  text-decoration: none;
+}
+.Footer_Box ul li {
+  padding: 0.8rem;
+  text-align: center;
+
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+/* ////////////////////////////////////////////////////////// */
+.Header {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.03), 0 3px 46px rgba(0, 0, 0, 0.07);
+  height: 80px;
+}
+.Header_Image_Right {
+  height: 40px;
+}
+.Font_Title {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.Font_Title:hover {
+  text-decoration: none;
+}
+.Sizes {
+  width: 100%;
+  z-index: 500;
+}
+.ck-editor__editable_inline {
+  min-height: 300px;
+}
+.Imagess {
+  width: 35px;
+} /* USING BOOTSTRAP 3.0.3 */
+.Image {
+  width: 20px;
+}
+.SizeAvatar {
+  width: 70px;
+  border-radius: 50%;
+}
+.ck.ck-editor__main > .ck-editor__editable {
+  height: 100px;
+}
+.avatar_username img,
+.avatar_username p {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+.bug {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #d73a4a;
+  border-radius: 6px;
+  color: #000000;
+}
+.duplicate {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #cfd3d7;
+  border-radius: 6px;
+  color: #000000;
+}
+.documentation {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #0075ca;
+  border-radius: 6px;
+  color: #ffffff;
+}
+.enhancement {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #a2eeef;
+  border-radius: 6px;
+  color: #000000;
+}
+
+/* When the checkbox is checked, add a blue background */
+.customcheckBug input:checked ~ .checkmark {
+  background-color: #d73a4a;
+  border-radius: 5px;
+}
+.customcheckDocumentation input:checked ~ .checkmark {
+  background-color: #0075ca;
+  border-radius: 5px;
+}
+.customcheckDuplicate input:checked ~ .checkmark {
+  background-color: #cfd3d7;
+  border-radius: 5px;
+}
+.customcheckEnhancement input:checked ~ .checkmark {
+  background-color: #a2eeef;
+  border-radius: 5px;
+}
+
+/* The customcheck */
+.customcheck {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.customcheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.customcheck:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.customcheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.customcheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.fromSubmit{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Banner {
+    width: 100%;
+    height: 150px;
+    background: url(../Image/bg-setup.svg) bottom no-repeat,linear-gradient(60deg, #008bd6, #3ecfe6);
+  }
+
+  .Banner_Text {
+    text-align: left;
+  }
+
+  .Banner_Text .TextBanner_One {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  .Banner_Text .TextBanner_Two {
+    font-size: 3vw;
+    
+  }
+  .customcheck {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px ;
+    /* margin-right: 7px; */
+   
+    cursor: pointer;
+    font-size: 10px ;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    height: 15px ;
+    width: 15px ;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  .customcheck .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+}
